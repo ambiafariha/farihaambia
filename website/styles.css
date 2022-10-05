@@ -1,0 +1,697 @@
+html {
+  overflow-y: scroll;
+}
+
+body {
+  background-color: #f1f1ef;
+  padding-bottom:5%;
+}
+
+.alpona0 {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.alponafooter {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #ffff  ;
+  text-align: center;
+  float: center;
+}
+
+.skipbutton {
+  color: #2a3524;
+  font-family: Tw Cen MT, sans-serif;
+  position: fixed;
+  right: 3%;
+  bottom: 5%;
+  width: 100%;
+  text-align: right;
+  font-size: 12px;
+}
+
+body.transition {
+            animation: fadeInAnimation ease 1s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+/* Top menu/ and FARIHA */
+
+.topnav {
+
+      text-align: center;
+      margin-bottom: 25px;
+}
+
+.topnav-centered a {
+  color: #2a3524;
+  padding: 14px 14px;
+  text-decoration: none;
+  font-size: 12px;
+  font-family: Tw Cen MT, sans-serif;
+  font-weight: bold;
+  margin-right: 15px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+opacity: 70%;
+transition: 0.3s;
+}
+
+a.active {
+opacity: 70%;
+}
+
+.header {
+  font-family: Garamond, serif;
+  color: #e1ad01;
+  text-align:  center;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#homeart{
+    position: absolute;
+    z-index: -1;
+    top: 14px 16px;
+    left: 0;
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  right: 10;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  max-width: 33.33%;
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 5%;
+  top: 0;
+  width: auto;
+  float:center;
+}
+
+.rectangle {
+  position: fixed;
+  left: 0;
+  z-index:-1;
+  top: 0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  width:auto; 
+  height:60%;
+}
+
+.webimg{
+  position: absolute;
+  left: 0;
+  z-index:-1;
+  top: 0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  text-align: justify;
+     }
+     
+     .webvid{
+  position: absolute;
+  left: 0;
+  z-index:-1;
+  top: 0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  text-align: justify;
+     }
+ 
+
+/* Modal Content */
+.modal-content {
+    position: fixed;
+    top: 20%;
+    bottom:20%;
+left: 10%;
+margin: -35px 0 0 -35px;
+}
+
+
+
+/* The Close Button */
+.close {
+  color: #2a3524;
+  position: fixed;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  cursor: pointer;
+    opacity: 70%;
+
+}
+
+.prev,
+.next {
+  cursor: pointer;
+  position: fixed;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #2a3524;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+}
+.next {
+  right: 0;
+}
+.prev {
+  left: 0;
+}
+
+.arttext {
+  color: #2a3524;
+  font-family: Tw Cen MT, sans-serif;
+  position: absolute;
+  top: 28%;
+  left:73%;
+  width:150px;
+  font-size:12px;
+}
+
+.phonetext{
+    position:relative;
+    display:none;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  opacity: 70%;
+  cursor: pointer;
+}
+
+
+
+/* contact and email box */
+
+input[type=text], select, textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 0px;
+  margin-bottom: -5px;
+  font-size: 13px;
+  font-family: Tw Cen MT, sans-serif;
+  outline: none;
+}
+
+input[type=submit] {
+  background-color: white;
+  float: right;
+  color: grey;
+  border: none;
+  cursor: pointer;
+  font-family: Tw Cen MT, sans-serif;
+  font-size: 12px; 
+}
+
+.float-container {
+    padding: 30px;
+    margin-bottom: 25px;
+    width:50%;
+    font-family: Tw Cen MT, sans-serif;
+    font-size:12px ;
+    color: grey;
+}
+
+
+p.small {
+font-size:18px ;
+color:  grey;
+text-align: left;
+font-family: Tw Cen MT, sans-serif;
+}
+
+p.big {
+  line-height: 1.8;
+  font-size:12px ;
+  color: grey;
+  text-align: left;
+  font-family: Tw Cen MT, sans-serif;
+}
+
+  .mypic {  
+    width: 340px; 
+    float: right; 
+    margin-right: 30px; 
+    margin-left: 30px;
+    margin-bottom:30px;
+    padding:1px;
+    border:1px solid grey;
+  } 
+  
+  .about{
+          text-align: justify;
+                font-size: 14px;
+  }
+
+  .about::after { 
+    text-align: justify;
+    font-family: Tw Cen MT, sans-serif;
+    margin-bottom: 25px;
+     content: "";
+  clear: both;
+  display: table;
+  } 
+  
+  p.para{    
+      font-family: Tw Cen MT, sans-serif;
+      font-size: 14px;
+      margin-left: 30px;
+      margin-right: 30px;
+      color: grey;
+}
+  
+  
+/* portfolio animation */
+
+ .square_one {
+  width: 160px;
+  height: 200px;
+  animation-name: squareCircle;
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: 120px;
+  left: 20px;
+  animation-name: squareOne;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+  
+}
+
+#portfolio1:hover{
+    cursor: pointer;
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+@keyframes squareOne {
+  to {    
+    left: 51%;
+  }
+}
+
+#portfolio1 {
+  width: 160px;
+  height: 200px;
+  float:  left;
+}
+
+.square_two {
+  width: 160px;
+  height: 200px;
+  animation-name: squareCircle;
+  animation-fill-mode: forwards;
+  position: absolute;
+  top: 120px;
+  right: 20px;
+  animation-name: squareTwo;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+}
+
+#portfolio2:hover{
+    cursor: pointer;
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+@keyframes squareTwo {
+  to {
+    right: 51%;
+  }
+}
+
+#portfolio2 {
+  width: 160px;
+  height: 200px;
+  float:  right;
+  padding-left: 15px;
+}
+
+.square_three {
+  width: 365px;
+  height: 200px;
+  animation-name: squareCircle;
+  animation-fill-mode: forwards;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  animation-name: squareThree;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+}
+
+#portfolio3:hover{
+    cursor: pointer;
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+#portfolio3 {
+  width: 160px;
+  height: 200px;
+  float:  left;
+}
+
+@keyframes squareThree {
+  to {
+    left: 51%;
+        bottom:25%;
+
+  }
+}
+
+.square_four {
+  width: 340px;
+  height: 200px;
+  animation-name: squareCircle;
+  animation-fill-mode: forwards;
+  position: absolute;
+  bottom: 0%;
+  right: 0%;
+  animation-name: squareFour;
+  animation-duration: 1s;
+  animation-delay: 0.5s;
+}
+
+#portfolio4:hover{
+    cursor: pointer;
+    opacity: 70%;
+    transition: 0.3s;
+}
+
+@keyframes squareFour {
+  to {
+    right: 51%;
+    bottom: 25%;
+  }
+}
+
+#portfolio4 {
+  width: 160px;
+  height: 200px;
+  float:  right;
+}
+
+.port1text {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            font-family: Tw Cen MT, sans-serif;
+            color: grey;
+            float: right;
+            font-size: 12px;
+            text-align: justify;
+            line-height: 20px;
+                          margin-top: 4px;
+          }
+          
+.port2text {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            font-family: Tw Cen MT, sans-serif;
+            color: grey;
+            float: left;
+            font-size: 12px;
+            text-align: justify;
+            line-height: 20px;
+                                      margin-top: 4px;
+          }
+.port3text {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            font-family: Tw Cen MT, sans-serif;
+            color: grey;
+            float: right;
+            font-size: 12px;
+            text-align: justify;
+            line-height: 20px;
+
+          }
+.port4text {
+            animation: fadeInAnimation ease 3s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+            font-family: Tw Cen MT, sans-serif;
+            color: grey;
+            float: left;
+            font-size: 12px;
+            text-align: justify;
+            line-height: 20px;
+
+          }
+
+@keyframes fadeInAnimation {
+            0% {
+                opacity: 0;}
+            50% {
+                opacity: 0;}
+            100% {
+                opacity: 1;}
+          }
+
+
+
+/* resume */
+
+p.resume {
+    color: grey;
+    font-family: Tw Cen MT, sans-serif;
+    text-align: center;
+    font-size:13px;
+}
+
+.resumebox {
+  margin: auto;
+  width: 55%;
+  border: 2px solid #2a3524;
+  padding: 10px;
+  background: #f1f1ef;
+}
+
+#resumeart{
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top:0;
+    width: 100%; 
+    max-height: 150%;
+    object-fit: cover;
+}
+
+
+/* footer */
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2a3524  ;
+  text-align: center;
+  float: center;
+}
+
+p.TM {
+margin-left: 150px;
+margin-top: 30px;
+font-size: 8px;
+color: white;
+}
+
+
+
+/* socials */
+
+.fa {
+  padding: 3px;
+  font-size: 30px;
+  text-decoration: none;
+  border-radius: 50%;
+  float: right;
+  margin-right: 5px;
+}
+
+.fa-instagram {
+  background: #2a3524;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #2a3524;
+  color: white;
+}
+
+.fa-twitter {
+  background: #2a3524;
+  color: white;
+}
+
+.socials {
+ margin-right: 50px;
+ margin-top: 15px;
+ background: #2a3524;
+ color: white;
+}
+
+.clear { clear: both; height: 60px; }
+
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    
+    .port1text {
+            text-align: left;}
+          
+     .port2text {
+            text-align: left;}
+          
+    p.para{
+          text-align: left; }
+
+    
+    .prev,
+.next {
+  display:none;
+}
+    
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  
+  .topnav-centered a {
+  padding: 0px 0px;
+  margin-left:10px;
+  }
+   
+  .square_three {width: 100px;} 
+  
+  .square_one {
+  width: 160px;
+  text-align:center;
+  margin-top:5%;
+}
+
+.square_two {
+  width: 160px;
+  float: left;
+  text-align:center;
+  padding-top:5%;
+}
+    .port3text{display:none;}
+   
+    .port4text{display:none;}
+ 
+ .resumeart{display:none;}
+   
+ .resumebox {width:90%;}
+ 
+
+ .webimg{display:none;}
+ .webvid{display:none;
+     opacity:100%;
+ }
+
+ .text {
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  font-size:15px;
+}
+
+ .arttext {
+  display:none;
+ }
+ 
+ .phonetext{
+  display:block;
+  color: #2a3524;
+  font-family: Tw Cen MT, sans-serif;
+  left:50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  font-size:13px;
+  width:200px;
+ }
+ 
+ .para{  
+     text-align: justify;
+}
+
+body {
+  padding-bottom:11%;
+}
+
+    
+}
+
+
+
